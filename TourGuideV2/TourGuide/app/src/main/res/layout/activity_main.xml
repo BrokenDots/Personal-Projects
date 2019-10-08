@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#6858FE">
+
+
+    <TextView
+        android:id="@+id/event_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Event"
+        android:textSize="40sp"
+        android:background="#FFFFFF"
+        android:textColor="#2E384C"
+        android:paddingVertical="15dp"
+        android:paddingHorizontal="20dp"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/restaurant_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Restaurant"
+        android:textSize="40sp"
+        android:background="#FFFFFF"
+        android:textColor="#2E384C"
+        android:paddingVertical="15dp"
+        android:paddingHorizontal="20dp"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/attractions_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Attractions"
+        android:textSize="40sp"
+        android:background="#FFFFFF"
+        android:textColor="#2E384C"
+        android:paddingVertical="15dp"
+        android:paddingHorizontal="20dp"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/shop_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Shop"
+        android:textSize="40sp"
+        android:background="#FFFFFF"
+        android:textColor="#2E384C"
+        android:paddingVertical="15dp"
+        android:paddingHorizontal="20dp"
+        android:layout_margin="10dp"/>
+</LinearLayout>
